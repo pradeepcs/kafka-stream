@@ -1,0 +1,11 @@
+kafka:
+    bootstrap:
+        server: localhost:9092
+    stream:
+        appId: test-stream-app
+        inbound:
+            topic: test1
+        outbound:
+            topic: test2
+    consumer:
+        groupId: test-consumer
